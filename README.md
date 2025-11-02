@@ -34,9 +34,31 @@ VoiceGuard is a cutting-edge voice authentication system that combines tradition
 
 ## 🚀 Quick Start
 
+### Option 1: Windows GUI Application (No Python Required) ⭐ Recommended
+
+**Modern graphical interface with buttons and visual feedback:**
+
+1. Download `VoiceGuard-GUI.exe` from the [releases page](https://github.com/DevArqf/VoiceGuard/releases)
+2. Create a `.env` file with your OpenAI API key
+3. Double-click `VoiceGuard-GUI.exe`
+
+📖 See [GUI.md](GUI.md) for detailed GUI usage guide.
+
+### Option 2: Windows Console Application (No Python Required)
+
+**Command-line interface:**
+
+1. Download `VoiceGuard.exe` from the [releases page](https://github.com/DevArqf/VoiceGuard/releases)
+2. Create a `.env` file with your OpenAI API key
+3. Run `VoiceGuard.exe`
+
+📖 See [WINDOWS_EXECUTABLE.md](WINDOWS_EXECUTABLE.md) for detailed instructions.
+
+### Option 3: Run from Source (Python Required)
+
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/voiceguard.git
+git clone https://github.com/DevArqf/VoiceGuard.git
 cd voiceguard
 
 # Install dependencies
